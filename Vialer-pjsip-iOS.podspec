@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.license               = { :type => "GNU GPLv3", :file => "LICENSE" }
 	s.author                = { "Devhouse Spindle" => "opensource@wearespindle.com" }
 
-	s.source                = { :git => "https://github.com/Spyspyspy/Vialer-pjsip-iOS.git", :branch => 'develop' }
+	s.source                = { :path => "../Vialer-pjsip-iOS" }
 	s.social_media_url      = "https://twitter.com/wearespindle"
 
 	s.platform              = :ios, "10.0"
